@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.7.1
+
+### Patch Changes
+
+- 1a6562c: fix(openid4vc): include auth-code scope in credential offer
+- 117931c: Updated so that when the holder verifies an incoming credential and it fails, it does not log the entire credential
+- 3f2bef1: Restore detailed mdoc verification error.
+- Updated dependencies [7dfafeb]
+  - @credo-ts/core@0.7.1
+
 ## 0.7.0
 
 ### Minor Changes
